@@ -146,7 +146,7 @@ router.get('/:id', contatoController.contatosRead);
  *                 contato:
  *                   $ref: '#/components/schemas/Contato'
  */
-router.post('/', verify, contatoController.contatosCreate);
+router.post('/register', verify, contatoController.contatosCreate);
 
 /**
  * @swagger
@@ -176,7 +176,7 @@ router.post('/', verify, contatoController.contatosCreate);
  *       204:
  *         description: Contato atualizado.
  */
-router.patch('/:id', verify, contatoController.contatosUpdate);
+router.put('/:id', verify, contatoController.contatosUpdate);
 
 /**
  * @swagger
