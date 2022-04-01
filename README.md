@@ -1,6 +1,6 @@
 # pw2-2021-2-mini-projeto-agenda-backend
 
-Este é o repositório que compreende a Application Programming Interface (API) da aplicação do mini projeto 2 da disciplina de Programação para Web II.
+Este é o repositório que compreende a Application Programming Interface (API) da aplicação do mini projeto 2 da disciplina de Programação para Web II. Para persistência dos dados foi utilizado o banco de dados PostgresSQL e para enviar o email de confirmação de novo usuário utizamos a plataforma SendGrid.
 
 # Iniciando
 
@@ -17,7 +17,7 @@ DB_PASSWORD= Senha do cliente postgres
 DB_HOST= Host da aplicação
 EMAIL_SENDER= Remetente do qual será encaminhado o email de confirmação de cadastro
 PORT= Porta da aplicação
-HOST_URL= URL do backend
+HOST_URL= URL do frontend
 SENDGRID_API_KEY= Api key do sendgrid
 TOKEN_SECRET= Token secreto usado para fazer a validação do jwt
 ```
